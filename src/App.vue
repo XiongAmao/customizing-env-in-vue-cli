@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div>url: {{ url }}</div>
+    <div>wtfEnv: {{ wtfEnv }}</div>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
     data() {
       return {
         url,
+        wtfEnv,
       }
     },
   }
